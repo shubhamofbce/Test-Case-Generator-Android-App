@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestCaseGenrator</string>
+    <string name="title_activity_array">ArrayActivity</string>
+    <string name="title_activity_random_number">RandomNumberActivity</string>
+</resources>

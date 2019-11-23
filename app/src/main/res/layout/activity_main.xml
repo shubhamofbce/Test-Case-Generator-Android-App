@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/array_button"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:text="Arrays"
+        android:textSize="20sp"
+        android:paddingRight="10dp"
+        android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
+        android:background="#0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/button_random_numbers"/>
+
+    <Button
+        android:id="@+id/button_random_numbers"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:text="Random Numbers"
+
+        android:textSize="20sp"
+        android:paddingRight="10dp"
+        android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
+        android:background="#0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/array_button"
+        app:layout_constraintBottom_toTopOf="@+id/button_string"/>
+
+    <Button
+        android:id="@+id/button_string"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:textSize="20sp"
+        android:paddingRight="10dp"
+        android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
+        android:background="#0000"
+        android:text="Strings"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_random_numbers" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
